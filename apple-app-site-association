@@ -3,19 +3,7 @@
     "apps": [],
     "details": [
       {
-        "appID": "PX6KQK3YJB.com.redpills.staging",
-        "paths": [
-          "*"
-        ]
-      },
-      {
-        "appID": "PX6KQK3YJB.com.stanfinance.app",
-        "paths": [
-          "*"
-        ]
-      },
-      {
-        "appID": "PX6KQK3YJB.com.stan.app",
+        "appID": "9MN72CG488.jp.co.mti.mdj.freemium.debug",
         "paths": [
           "*"
         ]
@@ -24,9 +12,7 @@
   },
   "webcredentials": {
     "apps": [
-      "PX6KQK3YJB.com.redpills.staging",
-      "PX6KQK3YJB.com.stanfinance.app",
-      "PX6KQK3YJB.com.stan.app"
+      "9MN72CG488.jp.co.mti.mdj.freemium.debug"
     ]
   }
 }
