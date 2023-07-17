@@ -18,4 +18,8 @@ app.get('/.well-known/apple-app-site-association', (req, res) => {
     res.download(__dirname + '/.well-known/apple-app-site-association');
 });
 
+app.get('/seriesDetail', (req, res) => {
+    res.send('seriesDetail')
+});
+
 app.listen(process.env.PORT || 3000);
