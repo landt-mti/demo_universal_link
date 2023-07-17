@@ -18,7 +18,7 @@ app.get('/.well-known/apple-app-site-association', (req, res) => {
     res.download(__dirname + '/.well-known/apple-app-site-association');
 });
 
-app.get('/seriesDetail', (req, res) => {
+app.get('/seriesDetail/:comicId', (req, res) => {
     res.send('seriesDetail')
 });
 
