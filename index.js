@@ -6,6 +6,7 @@ app.get('/', (req, res) => {
     res.send('Hello World!')
 });
 
+//Config files
 app.get('/apple-app-site-association', (req, res) => {
     // var aasa = fs.readFileSync(__dirname + '/apple-app-site-association');
     // res.send(aasa);
@@ -16,6 +17,18 @@ app.get('/.well-known/apple-app-site-association', (req, res) => {
     // var aasa = fs.readFileSync(__dirname + '/apple-app-site-association');
     // res.send(aasa);
     res.download(__dirname + '/.well-known/apple-app-site-association');
+});
+
+app.get('/assetlinks.json', (req, res) => {
+    // var aasa = fs.readFileSync(__dirname + '/apple-app-site-association');
+    // res.send(aasa);
+    res.download(__dirname + '/assetlinks.json');
+});
+
+app.get('/.well-known/assetlinks.json', (req, res) => {
+    // var aasa = fs.readFileSync(__dirname + '/apple-app-site-association');
+    // res.send(aasa);
+    res.download(__dirname + '/.well-known/assetlinks.json');
 });
 
 app.get('/seriesDetail/:comicId', (req, res) => {
