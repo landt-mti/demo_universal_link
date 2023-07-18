@@ -19,6 +19,10 @@ app.get('/.well-known/apple-app-site-association', (req, res) => {
 });
 
 app.get('/seriesDetail/:comicId', (req, res) => {
+    res.send('seriesDetail with id')
+});
+
+app.get('/seriesDetail', (req, res) => {
     res.send('seriesDetail')
 });
 
