@@ -19,11 +19,11 @@ app.get('/.well-known/apple-app-site-association', (req, res) => {
     res.download(__dirname + '/apple-app-site-association');
 });
 
-app.get('/assetlinks.json', (req, res) => {
-    // var aasa = fs.readFileSync(__dirname + '/apple-app-site-association');
-    // res.send(aasa);
-    res.download(__dirname + '/assetlinks.json');
-});
+// app.get('/assetlinks.json', (req, res) => {
+//     // var aasa = fs.readFileSync(__dirname + '/apple-app-site-association');
+//     // res.send(aasa);
+//     res.download(__dirname + '/assetlinks.json');
+// });
 
 app.get('/.well-known/assetlinks.json', (req, res) => {
     // var aasa = fs.readFileSync(__dirname + '/apple-app-site-association');
