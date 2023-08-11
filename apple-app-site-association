@@ -7,12 +7,40 @@
         "paths": [
           "*"
         ]
+      },
+ 	{
+        "appID": "9MN72CG488.jp.co.mti.mdj.freemium.rc",
+        "paths": [
+          "*"
+        ]
+      },
+ 	{
+        "appID": "9MN72CG488.jp.co.mti.mdj.freemium.staging",
+        "paths": [
+          "*"
+        ]
+      },
+ 	{
+        "appID": "9MN72CG488.jp.co.mti.mdj.freemium.beta",
+        "paths": [
+          "*"
+        ]
+      },
+ 	{
+        "appID": "9MN72CG488.jp.co.mti.mdj.freemium",
+        "paths": [
+          "*"
+        ]
       }
     ]
   },
   "webcredentials": {
     "apps": [
-      "9MN72CG488.jp.co.mti.mdj.freemium.debug"
+      "9MN72CG488.jp.co.mti.mdj.freemium.debug",
+      "9MN72CG488.jp.co.mti.mdj.freemium.rc",
+      "9MN72CG488.jp.co.mti.mdj.freemium.staging",
+      "9MN72CG488.jp.co.mti.mdj.freemium.beta",
+      "9MN72CG488.jp.co.mti.mdj.freemium"
     ]
   }
 }
