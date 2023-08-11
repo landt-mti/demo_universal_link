@@ -25,18 +25,4 @@ app.get('/assetlinks.json', (req, res) => {
     res.download(__dirname + '/assetlinks.json');
 });
 
-// app.get('/.well-known/assetlinks.json', (req, res) => {
-//     // var aasa = fs.readFileSync(__dirname + '/apple-app-site-association');
-//     // res.send(aasa);
-//     res.download(__dirname + '/assetlinks.json');
-// });
-
-app.get('/seriesDetail/:comicId', (req, res) => {
-    res.send('seriesDetail with id')
-});
-
-app.get('/seriesDetail', (req, res) => {
-    res.send('seriesDetail')
-});
-
 app.listen(process.env.PORT || 3000);
