@@ -2,7 +2,34 @@
   "relation": ["delegate_permission/common.handle_all_urls"],
   "target": {
     "namespace": "android_app",
-    "package_name": "jp.co.mti.mdj.freemium.dummy",
+    "package_name": "jp.co.mti.mdj.freemium",
+    "sha256_cert_fingerprints":
+    ["60:F0:C4:4F:01:43:41:BA:8C:AF:C3:FB:D0:F1:DE:D4:54:28:D9:C9:1F:26:B4:F9:F4:62:F1:A2:CE:9B:55:24"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "jp.co.mti.mdj.freemium.rc",
+    "sha256_cert_fingerprints":
+    ["60:F0:C4:4F:01:43:41:BA:8C:AF:C3:FB:D0:F1:DE:D4:54:28:D9:C9:1F:26:B4:F9:F4:62:F1:A2:CE:9B:55:24"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "jp.co.mti.mdj.freemium.staging",
+    "sha256_cert_fingerprints":
+    ["60:F0:C4:4F:01:43:41:BA:8C:AF:C3:FB:D0:F1:DE:D4:54:28:D9:C9:1F:26:B4:F9:F4:62:F1:A2:CE:9B:55:24"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "jp.co.mti.mdj.freemium.beta",
     "sha256_cert_fingerprints":
     ["60:F0:C4:4F:01:43:41:BA:8C:AF:C3:FB:D0:F1:DE:D4:54:28:D9:C9:1F:26:B4:F9:F4:62:F1:A2:CE:9B:55:24"]
   }
