@@ -13,7 +13,7 @@
     "namespace": "android_app",
     "package_name": "jp.co.mti.mdj.freemium.rc",
     "sha256_cert_fingerprints":
-    ["57:2A:0F:37:B9:54:50:EB:7C:38:4D:92:D9:F4:C8:BF:68:7B:2F:FA:FF:0B:B1:18:28:21:86:6C:81:B9:17:0F"]
+    ["60:F0:C4:4F:01:43:41:BA:8C:AF:C3:FB:D0:F1:DE:D4:54:28:D9:C9:1F:26:B4:F9:F4:62:F1:A2:CE:9B:55:24"]
   }
 },
 {
@@ -31,6 +31,6 @@
     "namespace": "android_app",
     "package_name": "jp.co.mti.mdj.freemium.beta",
     "sha256_cert_fingerprints":
-    ["57:2A:0F:37:B9:54:50:EB:7C:38:4D:92:D9:F4:C8:BF:68:7B:2F:FA:FF:0B:B1:18:28:21:86:6C:81:B9:17:0F"]
+    ["60:F0:C4:4F:01:43:41:BA:8C:AF:C3:FB:D0:F1:DE:D4:54:28:D9:C9:1F:26:B4:F9:F4:62:F1:A2:CE:9B:55:24"]
   }
 }]
