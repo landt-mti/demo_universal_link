@@ -31,4 +31,8 @@ app.get('/.well-known/assetlinks.json', (req, res) => {
     res.download(__dirname + '/assetlinks.json');
 });
 
+app.get('/notificationList', (req, res) => {
+    res.send('Hello World!')
+});
+
 app.listen(process.env.PORT || 3000);
